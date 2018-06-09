@@ -3,9 +3,9 @@
 # Description
 This is an unofficial collection of utility scripts for the EAGER v1.9.* genome reconstruction pipeline (Peltzer et al. (2016) _Genome Biology_. DOI: https://doi.org/10.1186/s13059-016-0918-z).
 
-These are small bash scripts that allow you do various things on EAGER configuration and output files and directories.
+The tool contains small bash scripts that allow you do various things on EAGER configuration and output files and directories.
 
-These utility scripts is compatible with EAGER version 1.92.55, and have been tested on Ubuntu 14.04 LTS with GNU Bash 4.3.11.
+These utility scripts are compatible with EAGER version 1.92.55, and have been tested on Ubuntu 14.04 LTS with GNU Bash 4.3.11.
 
 # Installation
 
