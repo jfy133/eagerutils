@@ -20,4 +20,5 @@ These utility scripts are compatible with EAGER version 1.92.55, and have been t
 ## Coming soon
 
 `summarise` - will concatenate multiple ReportTable result files into a single file (useful when running multiple EAGER runnings against different genomes or testing different parameters).
+
 `view` - prints a more readable version of the config file, for easy recovery of an EAGER run's settings.
