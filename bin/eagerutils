@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
+
+if [ $# -lt 1 ]; then
+  echo ""
+  echo "Program: eagerutils"
+  echo "Version: 0.0.1"
+  echo "Author: James A. Fellows Yates [jfy133@gmail.com]"
+  echo ""
+  echo "Usage: eagerutils <command> [options]"
+  echo ""
+  echo "Commands:"
+  echo "  " "view" "  " "print EAGER xml config settings in readable format [UNDER CONSTRUCTION]"
+  echo "  " "reset" " " "clean EAGER results directory(ies) to contain only the config file"
+  echo "  " "summarise" "  " "combines ReportTables of multiple EAGER parent directories [UNDER CONSTRUCTION]"
+  exit 2
+elif [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]; then
+  echo ""
+  echo "Program: eagerutils"
+  echo "Version: 0.0.1"
+  echo "Author: James A. Fellows Yates [jfy133@gmail.com]"
+  echo ""
+  echo "Usage: eagerutils <command> [options]"
+  echo ""
+  echo "Commands:"
+  echo "  " "view" "  " "print EAGER xml config settings in readable format [UNDER CONSTRUCTION]"
+  echo "  " "reset" " " "clean EAGER results directory(ies) to contain only the config file"
+  echo "  " "summarise" "  " "combines ReportTables of multiple EAGER parent directories [UNDER CONSTRUCTION]"
+  exit 0
+elif [[ "$1" == "view" ]]; then
+  echo ""
+  echo "CURRENTLY UNDER CONSTRUCTION"
+  echo ""
+elif [[ "$1" == "reset" ]]; then
+  echo ""
+  "$BASE"/modules/reset/eagerutils_reset_v0_1.sh "$2"
+  echo ""
+elif [[ "$1" == "summariser" ]]; then
+  echo ""
+  echo "CURRENTLY UNDER CONSTRUCTION"
+  echo ""
+fi
+
+exit 0
